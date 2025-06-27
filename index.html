@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+	<title>Evolução dos Herói</title>
+</head>
+<body>
+	<header>
+		<h1>Evolução dos Heróis</h1>
+		<p>Veja a evolução de poder dos heróis ao longo do tempo</p>
+	</header>
+
+	<main>
+		<section class="hero-select">
+			<label for="hero"> Escolha seu herói:</label>
+			<select id="hero">
+				<option value="cap">Capitão América</option>
+				<option value="iron">Homem de Ferro</option>
+				<option value="thor">Thor</option>				
+			</select>
+			
+		</section>
+		<section class="hero-card">
+			<h2 id="hero-name">Capitão América</h2>
+			<img id="hero-img" src="src/images/capitao-america.png" alt="Imagem do herói">
+			<div class="power-info">
+				<p><strong>Experiência:</strong> <span id="hero-xp">10.001</span> XP</p>
+				<p><strong>Nível:</strong> <span id="hero-level">RADIANTE</span></p>
+				<p id="hero-desc"><em>Depois de 70 anos então ele se tornou o Capitão América ...</em></p>
+			</div>
+		</section>
+		
+	</main>
+	<footer>
+		<p>&copy; 2025 Projeto DIO por Michael</p>
+	</footer>
+	<script src="src/javascript/script.js"></script>
+</body>
+</html>
