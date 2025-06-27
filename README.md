@@ -2,6 +2,7 @@
 
 ## Descrição
 Este código simula a evolução do Capitão América com base em sua quantidade de XP.
+Melhorias feitas, agora tem apenas a descrição de cada herói, futuramente será adicionado uma linha do tempo para cada herói, mostrando toda sua evolução.
 
 ## Uso
  Clone este repositório.
