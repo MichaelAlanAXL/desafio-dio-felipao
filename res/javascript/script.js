@@ -29,19 +29,19 @@ const heroes = {
   cap: {
     name: "Capitão América",
     xp: 10001,
-    image: "src/images/capitao-america.png",
+    image: "res/images/capitao-america.png",
     desc: "Depois de 70 anos então ele se tornou o Capitão América...",
   },
   iron: {
     name: "Homem de Ferro",
     xp: 7500,
-    image: "src/images/homem-de-ferro.png",
+    image: "res/images/homem-de-ferro.png",
     desc: "Tony Stark criou sua primeira armadura numa caverna e foi evoluindo...",
   },
   thor: {
     name: "Thor",
     xp: 8500,
-    image: "src/images/thor.png",
+    image: "res/images/thor.png",
     desc: "O Deus do Trovão nasceu com poder, mas amadureceu ao longo das batalhas...",
   }
 };
